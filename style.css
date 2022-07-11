@@ -1,0 +1,60 @@
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+<!-- navigation bar is suggested from w3schools -->
+
+div {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  // find in w3schools
+}
+
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  // find in w3schools
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  // find in w3schools
+}
+
+span.a {
+  display: inline; /* the default for span */
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  border: 3px solid blue;  
+  background-color: rgb(0, 255, 42);
+  // find in w3schools
+}
