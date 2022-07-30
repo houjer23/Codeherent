@@ -36,3 +36,6 @@ for(var x = 0; x < 9; x++)
   tablesetup += "</tr>";
 }
 document.write(tablesetup)
+
+
+document.getElementById("p2").style.color = "blue";

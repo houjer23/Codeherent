@@ -1,0 +1,113 @@
+/*Suggested from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout*/
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+.leftcolumn {   
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+  padding-top: 35px;
+  font-family: Pridi;
+}
+
+.leftcolumn h2 {
+  font-size: 45px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 60%;
+  padding-left: 50px;
+  padding-top: 70px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+}
+
+/* responsive video rapper suggested from http://net-informations.com/q/mis/youtube.html */
+.responsiveRapper {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	position:relative;
+}
+.responsiveRapper iframe,
+.responsiveRapper object,
+.responsiveRapper embed {
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+/* end of responsive video rapper */
+
+/* buttom for Start Coding Now*/
+      /* suggested from     https://www.w3schools.com/css/css3_buttons.asp */
+a.start_coding_now:link, a.start_coding_now:visited {
+  background-color: RoyalBlue;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin: 40px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+a.start_coding_now:hover, a.start_coding_now:active {
+  opacity: 1
+}
+/* end of bottom */
+
+/* changes for ipad */
+@media (max-width:1024px) {
+  .leftcolumn {   
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  .leftcolumn h2 {
+    font-size: 30px;
+  }
+  a.start_coding_now:link, a.start_coding_now:visited {
+    font-size: 20px;
+  }
+}
+
+/* changes for phones */
+@media (max-width:767px) {
+  .leftcolumn {   
+    padding-left: 0px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .leftcolumn h2 {
+    font-size: 25px;
+  }
+  a.start_coding_now:link, a.start_coding_now:visited {
+    font-size: 20px;
+  }
+  .rightcolumn {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  a.start_coding_now:link, a.start_coding_now:visited {
+    margin-top: 15px;
+    margin-bottom:10px;
+    margin-left:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

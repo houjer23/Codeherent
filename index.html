@@ -5,30 +5,122 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <body bgcolor = "yellow">
+    <link href="/homepage/homepage.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/d92b823bbb.js"></script>
   </head>
 
-  <ul class="nav">
-    <li class="menu"><a class="active" href="index.html">Home</a></li>
-    <li class="menu"><a href="hobbies.html">Hobbies</a></li>
-    <li class="menu"><a href="morehobbies.html">More Hobbies</a></li>
-    <li class="menu"><a href="aboutme.html">About Me</a></li>
+  <!-- navigation bar -->
+  <ul id = "nav_bar" class="nav_bar">
+    <!-- Need Javascript start -->
+    <li style="float:left" class="nav_bar_menu"><img class="logo" src="images/team_logo.png"></li>
+    <!-- Need Javascript end -->
+    <li class="nav_first_item"><a class="nav_bar_item" href="our_team.html">Our Team</a></li>
+    <li class="nav_bar_menu"><a class="nav_bar_item" href="contacts.html">Contacts</a></li>
+    <li class="nav_bar_menu"><a class="nav_bar_item" href="resources.html">Resources</a></li>
+    <li class="nav_bar_menu"><a class="nav_bar_item" href="courses.html">Courses</a></li>
+    <li class="nav_bar_menu"><a class="nav_bar_item active" href="index.html">Home</a></li>
   </ul>
+  <!-- end ofnavigation bar -->
+
 
   <body>
-    <header>
-      <h2>Welcome</h2>
-    </header>
+<div class="container">
+<div class="row">
+  <div class="leftcolumn">
+    <h2>
+      Are you afraid of computer science?
+      <br></br>
+      Use our platform to get started!
+    </h2>
+    <a id = "mainpagestartbtn" class="start_coding_now" href="courses.html">Start Coding Now</a>
+  </div>
+  <div class="rightcolumn">
+    <div class="responsiveRapper">
+	    <iframe
+	      src="https://www.youtube.com/embed/Y8Tko2YC5hA">
+	    </iframe>
+    </div>
+  </div>
+</div>
+</div>
 
-    <p>This is my cool website</p>
+<!--
+<div class="footer">
+  <div class ="mainpagefooterleft">
+    <h3 style = "margin-left: 20px; margin-top: 20px;">
+      This platform is a place for students to get started in computer
+      <br></br>
+      science.  It shows how simple and fascinating it is to code.
+    </h3>
+  </div>
+  <div class = "mainpagefooterright">
+    <h2 style = "font-family: Pridi; text-align: center;">
+      Quick Links
+    </h2>  
+     <a class="mainpagequicklink" href="index.html">Start Coding Now</a>
+  </div>
+</div>
+-->
 
-    <a href="https://www.7hills.org/">Visit my school</a>
+<!-- Site footer suggested from https://csshint.com/html-css-footer-design/ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">This platform is a place for students to get started in computer science. Usually, students are afraid to approach computer science because they always hear about how hard it is. Thus, some students might be very talented in computer science but will not take computer science classes. Nevertheless, the platform will show students how simple it is to create a program and how fascinating is computer science, allowing more students to have the desire to explore computer science by themselves.</p>
+          </div>
 
-    <p>I am normal</p>
-    <p style="color:red;">I am red</p>
-    <p style="color:blue;">I am blue</p>
-    <p style="font-size:50px;">I am big</p>
-    <p style="font-size:100px; color:Grey;">I am huge</p>
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="">C</a></li>
+              <li><a href="">UI Design</a></li>
+              <li><a href="">PHP</a></li>
+              <li><a href="">Java</a></li>
+              <li><a href="">Android</a></li>
+              <li><a href="">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Contribute</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+<!-- End of Site footer -->
 
   </body>
+
+  
 </html>
